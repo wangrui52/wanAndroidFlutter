@@ -53,38 +53,30 @@ class _BottomMenuState extends State<BottomMenu> {
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(
-              icon: Icon(
-                Icons.home,
-                color: Colors.red,
-              ),
+              activeIcon: Image.asset("images/home.png"),
+              icon: Image.asset("images/home_active.png"),
               title: Text(
                 "首页",
                 style: TextStyle(color: Colors.red),
               ),
             ),
             BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.red,
-                ),
+                activeIcon: Image.asset("images/knowledge.png"),
+                icon: Image.asset("images/knowledge_active.png"),
                 title: Text(
                   "知识体系",
                   style: TextStyle(color: Colors.red),
                 )),
             BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.red,
-                ),
+                activeIcon: Image.asset("images/public.png"),
+                icon: Image.asset("images/public_active.png"),
                 title: Text(
                   "公众号",
                   style: TextStyle(color: Colors.red),
                 )),
             BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.red,
-                ),
+                activeIcon: Image.asset("images/navigation.png"),
+                icon: Image.asset("images/navigation_active.png"),
                 title: Text(
                   "导航",
                   style: TextStyle(color: Colors.red),
